@@ -11,3 +11,7 @@ def test_grains_returns_2():
 
 def test_grains_returns_16():
     assert grains(5) == 16
+
+
+def test_chessboard_returns_1():
+    assert chessboard == 1
