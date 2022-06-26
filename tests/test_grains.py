@@ -1,4 +1,4 @@
-from scripts.grains import grains
+from scripts.grains import grains, chessboard
 
 
 def test_grains_returns_1():
@@ -14,4 +14,4 @@ def test_grains_returns_16():
 
 
 def test_chessboard_returns_1():
-    assert chessboard == 1
+    assert chessboard(1) == 1
