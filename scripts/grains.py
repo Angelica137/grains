@@ -1,2 +1,2 @@
 def grains(square: int) -> int:
-    return square
+    return 2**(square-1)
