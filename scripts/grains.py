@@ -3,4 +3,8 @@ def grains(square: int) -> int:
 
 
 def chessboard(squares: int) -> int:
-    return 1
+    count = 0
+    while squares:
+        count += grains(squares)
+        squares -= 1
+    return count
