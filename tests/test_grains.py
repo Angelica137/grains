@@ -14,11 +14,11 @@ def test_grains_returns_16():
 
 
 def test_chessboard_returns_1():
-    assert chessboard() == 1
+    assert chessboard() == 18446744073709551615
 
 
 def test_chessboard_returns_3():
-    assert chessboard() == 3
+    assert chessboard() == 18446744073709551615
 
 
 """
