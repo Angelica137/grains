@@ -19,3 +19,7 @@ def test_chessboard_returns_1():
 
 def test_chessboard_returns_3():
     assert chessboard(2) == 3
+
+
+def test_grains_returns_error():
+    assert grains(65) == "There are only 64 squares"
