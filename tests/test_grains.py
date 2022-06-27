@@ -21,5 +21,13 @@ def test_chessboard_returns_3():
     assert chessboard(2) == 3
 
 
+"""
 def test_grains_returns_error():
-    assert grains(65) == "There are only 64 squares"
+    with pytest.raises(ValueError, match=r"There are only 64 squares"):
+        grains(65)
+
+
+def test_chessboard_returns_error():
+    with pytest.raises(ValueError, match=r"There are only 64 squares"):
+        grains(65)
+"""

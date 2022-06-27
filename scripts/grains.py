@@ -1,4 +1,6 @@
 def grains(square: int) -> int:
+    if square > 64:
+        raise ValueError("There are only 64 squares")
     return 2**(square-1)
 
 
